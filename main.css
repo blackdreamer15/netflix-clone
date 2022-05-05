@@ -81,3 +81,20 @@ header div.hero-content h2 {
     font-weight: 400;
 }
 
+header div.cta-container {
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+}
+
+div.cta-container > h3 {
+    font-weight: 400;
+}
+
