@@ -32,3 +32,28 @@ div.space {
     border-bottom: 8px solid var(--prim-border-color);
 }
 
+header div.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 4rem;
+    padding: 30px 0 0 0;
+    height: 80px;
+}
+
+header div.header-wrapper img.netflix-logo {
+    width: 12rem;
+}
+
+header div.header-wrapper a {
+    text-decoration: none;
+    color: var(--prim-white);
+    background-color: var(--prim-red);
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: .25rem;
+}
+
