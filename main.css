@@ -1,7 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-
-
+:root {
+    --prim-red: rgb(229, 9, 20);
+    --prim-black: rgb(0, 0, 0);
+    --prim-white: rgb(255, 255, 255);
+    --prim-gray: rgb(119, 119, 119);
+}
 
 body {
+    color: var(--prim-white);
+    background-color: var(--prim-black);
     font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial,sans-serif;
+    font-size: 16px;
 }
