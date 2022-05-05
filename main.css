@@ -16,6 +16,7 @@ body {
     font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial,sans-serif;
     background: var(--prim-black);
     font-size: 16px;
+    /* min-width: 320px; */
 }
 
 header {
@@ -23,7 +24,11 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 110vh;
-    border-bottom: 8px solid var(--prim-border-color);
     position: relative;
+}
+
+div.space {
+    margin-top: .4rem;
+    border-bottom: 8px solid var(--prim-border-color);
 }
 
