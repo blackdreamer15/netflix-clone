@@ -121,3 +121,29 @@ div.cta-container div.cta-form > input {
     color: var(--prim-black);
 }
 
+div.cta-container div.cta-form > button.cta-btn {
+    background-color: var(--prim-red);
+    border: none;
+    outline: 0;
+    width: 28%;
+    height: 3.8rem;
+    border-radius: 0 4px 4px 0;
+    padding: 1rem 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.cta-container div.cta-form > button.cta-btn a {
+    color: var(--prim-white);
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-align: center;
+}
+div.cta-container div.cta-form > button.cta-btn a > i{
+    color: var(--prim-white);
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align: center;
+}
