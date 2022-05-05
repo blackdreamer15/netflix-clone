@@ -98,3 +98,26 @@ div.cta-container > h3 {
     font-weight: 400;
 }
 
+div.cta-container div.cta-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: 1.2rem auto 0;
+}
+
+div.cta-container div.cta-form > input {
+    font-size: 1.125rem;
+    padding: 10px 10px 10px;
+    width: 68%;
+    height: 3.8rem;
+    outline: 0;
+    border: 1px solid #8c8c8c;
+    border-radius: 4px 0 0 4px;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: var(--prim-white);
+    color: var(--prim-black);
+}
+
