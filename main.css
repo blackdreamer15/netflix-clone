@@ -16,7 +16,7 @@ body {
     font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial,sans-serif;
     background: var(--prim-black);
     font-size: 16px;
-    /* min-width: 320px; */
+    min-width: 320px;
 }
 
 header {
