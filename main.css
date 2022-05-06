@@ -147,13 +147,13 @@ div.cta-container div.cta-form > button.cta-btn a > i {
 }
 
 /*-----     SECTION 1     -----*/
-main section#sect-1 {
+main section {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 1rem 4rem;
     flex-wrap: wrap;
-    padding-bottom: 4.375rem;
+    padding-bottom: 3.125rem;
     border-bottom: 8px solid var(--prim-border-color);
 }
 
@@ -171,12 +171,12 @@ main section#sect-1 div.section-text h2 {
     font-weight: 400;
 }
 
-main section#sect-1 div.card-img {
+main section#sect-1 div.card-img-1 {
     max-height: 398px;
     max-width: 530px;
 }
 
-main section#sect-1 div.card-img img {
+main section#sect-1 div.card-img-1 img {
     max-height: 398px;
     max-width: 530px;
     object-fit: cover;
