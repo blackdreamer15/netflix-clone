@@ -146,3 +146,38 @@ div.cta-container div.cta-form > button.cta-btn a > i {
     text-align: center;
 }
 
+/*-----     SECTION 1     -----*/
+main section#sect-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 4rem;
+    flex-wrap: wrap;
+    padding-bottom: 4.375rem;
+    border-bottom: 8px solid var(--prim-border-color);
+}
+
+main section#sect-1 div.section-text {
+    max-width: 550px;
+}
+
+main section#sect-1 div.section-text h1 {
+    font-size: 3.2rem;
+    margin-bottom: 1.25rem;
+}
+
+main section#sect-1 div.section-text h2 {
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+main section#sect-1 div.card-img {
+    max-height: 398px;
+    max-width: 530px;
+}
+
+main section#sect-1 div.card-img img {
+    max-height: 398px;
+    max-width: 530px;
+    object-fit: cover;
+}
