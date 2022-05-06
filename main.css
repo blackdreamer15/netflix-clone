@@ -25,10 +25,7 @@ header {
     background-size: cover;
     min-height: 110vh;
     position: relative;
-}
-
-div.space {
-    margin-top: .4rem;
+    padding-bottom: .4rem;
     border-bottom: 8px solid var(--prim-border-color);
 }
 
@@ -140,10 +137,12 @@ div.cta-container div.cta-form > button.cta-btn a {
     font-size: 1.4rem;
     text-align: center;
 }
-div.cta-container div.cta-form > button.cta-btn a > i{
+
+div.cta-container div.cta-form > button.cta-btn a > i {
     color: var(--prim-white);
     text-decoration: none;
     font-size: 1.4rem;
     font-weight: 300;
     text-align: center;
 }
+
