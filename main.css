@@ -186,3 +186,40 @@ main section#sect-1 div.card-img-1 img {
 }
 
 
+
+/*-----     SECTION 2     -----*/
+main section#sect-2 {
+    padding: 1.5rem 3rem 4rem;
+    border-bottom: 8px solid var(--prim-border-color);
+}
+
+main section#sect-2 div.card-img-2 {
+    max-height: 379px;
+    max-width: 490px;
+}
+
+main section#sect-2 div.card-img-2 img {
+    max-width: 490px;
+    max-height: 379px;
+    object-fit: cover;
+    margin: 1rem auto auto -5rem;
+}
+
+main section#sect-2 div.section-text {
+    max-width: 550px;
+    max-height: 379px;
+    margin-left: -6rem;
+}
+
+main section#sect-2 div.section-text h1 {
+    font-size: 3.2rem;
+    margin-bottom: 1.25rem;
+}
+
+main section#sect-2 div.section-text h2 {
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+
+
