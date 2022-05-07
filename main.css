@@ -146,14 +146,17 @@ div.cta-container div.cta-form > button.cta-btn a > i {
     text-align: center;
 }
 
-/*-----     SECTION 1     -----*/
+/*-----     SECTIONS     -----*/
 main section {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 1rem 4rem;
     flex-wrap: wrap;
-    padding-bottom: 3.125rem;
+}
+
+/*-----     SECTION 1     -----*/
+main section#sect-1 {
+    padding: 1rem 4rem 3.125rem;
     border-bottom: 8px solid var(--prim-border-color);
 }
 
@@ -181,3 +184,5 @@ main section#sect-1 div.card-img-1 img {
     max-width: 530px;
     object-fit: cover;
 }
+
+
