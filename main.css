@@ -256,13 +256,13 @@ main section#sect-3 div.section-text h2 {
 }
     
 main section#sect-4 div.card-img-3 {
-    max-height: 390px;
+    max-height: 500px;
     max-width: 490px;
     margin: 1rem auto 3rem;
 }
 
 main section#sect-4 div.card-img-3 img {
-    max-width: 490px;
+    max-width: 500px;
     max-height: 390px;
     object-fit: cover;
 }
