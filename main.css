@@ -249,4 +249,36 @@ main section#sect-3 div.section-text h2 {
     
     
     
- 
+ /*-----     SECTION 4     -----*/
+ main section#sect-4 {
+    padding: 1.5rem 3rem 4rem;
+    border-bottom: 8px solid var(--prim-border-color);
+}
+    
+main section#sect-4 div.card-img-3 {
+    max-height: 379px;
+    max-width: 490px;
+}
+
+main section#sect-4 div.card-img-3 img {
+    max-width: 490px;
+    max-height: 379px;
+    object-fit: cover;
+    margin: 1rem auto auto -5rem;
+}
+
+main section#sect-4 div.section-text {
+    max-width: 550px;
+    max-height: 379px;
+    margin-left: -6rem;
+}
+
+main section#sect-4 div.section-text h1 {
+    font-size: 3.2rem;
+    margin-bottom: 1.25rem;
+}
+
+main section#sect-4 div.section-text h2 {
+    font-size: 1.625rem;
+    font-weight: 400;
+}
