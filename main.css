@@ -223,3 +223,30 @@ main section#sect-2 div.section-text h2 {
 
 
 
+/*-----     SECTION 3     -----*/
+main section#sect-3 {
+    padding: 1.5rem 3rem 4rem;
+    border-bottom: 8px solid var(--prim-border-color);
+    justify-content: flex-start;
+}
+        
+main section#sect-3 div.section-text {
+    max-width: 550px;
+    max-height: 379px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+        
+main section#sect-3 div.section-text h1 {
+    font-size: 3.2rem;
+    margin-bottom: 1.25rem;
+}
+        
+main section#sect-3 div.section-text h2 {
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+    
+    
+    
+ 
