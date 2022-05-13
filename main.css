@@ -302,8 +302,16 @@ main section#sect-5 h1 {
     margin-bottom: 1.1rem;
 }
 
-main section#sect-5 details {}
+main section#sect-5 div.faq-accordion details {
+    margin: 1.25em auto;
+}
 
-main section#sect-5 h1 details summary {}
+main section#sect-5 div.faq-accordion details summary {
+    background: rgb(48, 48, 48);
+    padding: 12px;
 
-main section#sect-5 h1 details summary p {}
+}
+
+main section#sect-5 div.faq-accordion details p {
+
+}
