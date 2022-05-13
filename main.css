@@ -283,3 +283,18 @@ main section#sect-4 div.section-text h2 {
     font-weight: 400;
     max-width: 530px;
 }
+
+
+ /*-----     SECTION 5 - Accordion Menu     -----*/
+ main section#sect-5 {
+    padding: 2.5rem 5rem 2.8rem;
+    border-bottom: 8px solid var(--prim-border-color);
+}
+
+main section#sect-5 h1 {}
+
+main section#sect-5 details {}
+
+main section#sect-5 h1 details summary {}
+
+main section#sect-5 h1 details summary p {}
