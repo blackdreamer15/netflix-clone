@@ -302,13 +302,23 @@ main section#sect-5 h1 {
     margin-bottom: 1.1rem;
 }
 
+main section#sect-5 div.faq-accordion {
+    max-width: 815px;
+    width: ;
+}
+
 main section#sect-5 div.faq-accordion details {
     margin: 1.25em auto;
 }
 
 main section#sect-5 div.faq-accordion details summary {
     background: rgb(48, 48, 48);
-    padding: 12px;
+    padding: 16px 44px 16px 24px;
+    width: 100%;
+    font-weight: 400;
+    border: 0;
+    position: relative;
+    margin-bottom: 1px;
     list-style: none;
 }
 
