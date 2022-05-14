@@ -309,7 +309,7 @@ main section#sect-5 div.faq-accordion details {
 main section#sect-5 div.faq-accordion details summary {
     background: rgb(48, 48, 48);
     padding: 12px;
-
+    list-style: none;
 }
 
 main section#sect-5 div.faq-accordion details p {
