@@ -320,6 +320,8 @@ main section#sect-5 div.faq-accordion details summary {
     position: relative;
     margin-bottom: 1px;
     list-style: none;
+    outline: none;
+    cursor: pointer;
 }
 
 main section#sect-5 div.faq-accordion details p {
