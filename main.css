@@ -314,6 +314,7 @@ main section#sect-5 div.faq-accordion details {
 main section#sect-5 div.faq-accordion details summary {
     background: rgb(48, 48, 48);
     padding: 18px 44px 18px 24px;
+    margin-bottom: .3rem;
     width: 100%;
     font-weight: 400;
     font-size: 1.7rem;
@@ -325,5 +326,8 @@ main section#sect-5 div.faq-accordion details summary {
 }
 
 main section#sect-5 div.faq-accordion details p {
-
+    background: rgb(48, 48, 48);
+    font-size: 1.4rem;
+    padding: 18px 44px 18px 24px;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial,sans-serif;
 }
