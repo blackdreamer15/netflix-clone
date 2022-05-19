@@ -55,10 +55,13 @@ header div.header-wrapper a {
 }
 
 header div.hero-content {
-    position: absolute;
+    /* position: absolute;
     left: 50%;
     top: 46%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    margin: 7.2rem auto 3rem;
+    width: 50%;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -332,3 +335,28 @@ main section#sect-5 div.faq-accordion details p {
     padding: 18px 44px 18px 24px;
     font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial,sans-serif;
 }
+
+
+/* FOOTER */
+footer {
+    padding: 3rem 4rem;
+}
+
+footer div#question {}
+
+footer div#question a {
+    color: rgb(119, 119, 119);
+}
+
+
+footer div#question div.footer-links-container {}
+
+footer div#question div.footer-links-container ul {}
+
+footer div#question div.footer-links-container ul li {}
+
+footer div#question div.footer-links-container ul li a {}
+
+footer div.footer-country {}
+
+
