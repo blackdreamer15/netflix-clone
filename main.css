@@ -342,21 +342,35 @@ footer {
     padding: 3rem 4rem;
 }
 
-footer div#question {}
+footer div#question {
+    margin: auto;
+    width: 60%;
+    color: #777;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
 
 footer div#question a {
     color: rgb(119, 119, 119);
+    text-decoration: none;
 }
 
 
 footer div#question div.footer-links-container {}
 
-footer div#question div.footer-links-container ul {}
+footer div#question div.footer-links-container ul.links {}
 
-footer div#question div.footer-links-container ul li {}
+footer div#question .footer-links-container ul.links li {
+    list-style: none;
+}
 
-footer div#question div.footer-links-container ul li a {}
+footer div#question .footer-links-container ul.links li a {
+    color: rgb(119, 119, 119);
+    text-decoration: none;
+}
 
-footer div.footer-country {}
+footer div.footer-country {
+    color: rgb(119, 119, 119);
+}
 
 
