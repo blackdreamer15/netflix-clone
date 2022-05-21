@@ -356,15 +356,15 @@ footer div#question a {
 }
 
 
-footer div#question div.footer-links-container {}
+footer div.footer-links-container {}
 
-footer div#question div.footer-links-container ul.links {}
+footer div.footer-links-container ul.links {}
 
-footer div#question .footer-links-container ul.links li {
+footer .footer-links-container ul.links li {
     list-style: none;
 }
 
-footer div#question .footer-links-container ul.links li a {
+footer .footer-links-container ul.links li a {
     color: rgb(119, 119, 119);
     text-decoration: none;
 }
