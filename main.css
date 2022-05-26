@@ -329,6 +329,14 @@ main section#sect-5 div.faq-accordion details summary {
     cursor: pointer;
 }
 
+main section#sect-5 div.faq-accordion details summary span {
+    position: absolute;
+    font-size: 3rem;
+    right: 24px;
+    top: 0%;
+    bottom: 0%;
+}
+
 main section#sect-5 div.faq-accordion details p {
     background: rgb(48, 48, 48);
     font-size: 1.4rem;
@@ -396,5 +404,3 @@ footer div.footer-country {
     margin: auto;
     width: 70%;
 }
-
-
