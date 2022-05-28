@@ -331,10 +331,8 @@ main section#sect-5 div.faq-accordion details summary {
 
 main section#sect-5 div.faq-accordion details summary span {
     position: absolute;
-    font-size: 3rem;
-    right: 24px;
-    top: 0%;
-    bottom: 0%;
+    transform: scale(2);
+    right: 1.5rem;
 }
 
 main section#sect-5 div.faq-accordion details p {
