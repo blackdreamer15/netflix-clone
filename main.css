@@ -193,6 +193,14 @@ main section#sect-1 div.card-img-1 img {
     object-fit: cover;
 }
 
+main section#sect-1 div.card-img-1 div .video-tv {
+    position: relative;
+    left: 4.45em;
+    top: -19.95em;
+    width: 24em;
+    z-index: -1;
+}
+
 
 /*-----     SECTION 2     -----*/
 main section#sect-2 {
