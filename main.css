@@ -55,11 +55,7 @@ header div.header-wrapper a {
 }
 
 header div.hero-content {
-    /* position: absolute;
-    left: 50%;
-    top: 46%;
-    transform: translate(-50%, -50%); */
-    margin: 7.2rem auto 3rem;
+    margin: 8rem auto 3rem;
     width: 50%;
 
     display: flex;
@@ -67,7 +63,6 @@ header div.hero-content {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-bottom: 3rem;
 }
 
 header div.hero-content h1 {
@@ -84,16 +79,15 @@ header div.hero-content h2 {
 /* GENERIC STYLES FOR ALL CTA FORM*/
 
 header div.cta-container {
-    top: 70%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+    top: 1em;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     width: 80%;
+    margin: 0 auto;
 }
 
 div.cta-container > h3 {
@@ -144,7 +138,7 @@ div.cta-container div.cta-form > button.cta-btn a {
     text-align: center;
 }
 
-div.cta-container div.cta-form > button.cta-btn a > i {
+div.cta-container div.cta-form > button.cta-btn a > span {
     color: var(--prim-white);
     text-decoration: none;
     font-size: 1.4rem;
