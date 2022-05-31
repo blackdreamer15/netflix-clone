@@ -465,7 +465,7 @@ footer div.footer-country {
 
 
 /* MEDIA QUERIES FOR RWD */
-@media (max-width: 64rem) and (min-width: 48rem) {
+@media (max-width: 64rem) {
 
     header div.header-wrapper {
         margin: 0 2rem;
@@ -484,6 +484,10 @@ footer div.footer-country {
     header div.hero-content {
         margin: 10em auto 0;
         width: 60%;
+    }
+
+    header div.hero-content h1 {
+        font-size: 2.7rem;
     }
 
 
@@ -517,7 +521,7 @@ footer div.footer-country {
     div.cta-container div.cta-form > button.cta-btn {
         width: 30%;
         height: 2.6rem;
-        padding: .6rem;
+        padding: .5rem;
         margin-top: 1rem;
         border-radius: 2px;
     }
