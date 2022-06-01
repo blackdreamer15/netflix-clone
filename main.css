@@ -78,7 +78,7 @@ header div.hero-content h2 {
 
 /* GENERIC STYLES FOR ALL CTA FORM*/
 
-header div.cta-container {
+div.cta-container {
     top: 1em;
     position: relative;
     display: flex;
@@ -105,7 +105,7 @@ div.cta-container div.cta-form {
     margin: 1.2rem auto 0;
 }
 
-div.cta-container div.cta-form > input {
+div.cta-container div.cta-form input {
     font-size: 1.125rem;
     padding: 10px 10px 10px;
     width: 68%;
@@ -118,7 +118,7 @@ div.cta-container div.cta-form > input {
     color: var(--prim-black);
 }
 
-div.cta-container div.cta-form > button.cta-btn {
+div.cta-container div.cta-form button.cta-btn {
     background-color: var(--prim-red);
     border: none;
     outline: 0;
@@ -131,14 +131,14 @@ div.cta-container div.cta-form > button.cta-btn {
     justify-content: center;
 }
 
-div.cta-container div.cta-form > button.cta-btn a {
+div.cta-container div.cta-form button.cta-btn a {
     color: var(--prim-white);
     text-decoration: none;
     font-size: 1.4rem;
     text-align: center;
 }
 
-div.cta-container div.cta-form > button.cta-btn a > span {
+div.cta-container div.cta-form button.cta-btn a span {
     color: var(--prim-white);
     text-decoration: none;
     font-size: 1.4rem;
@@ -343,11 +343,10 @@ main section#sect-4 div.section-text h2 {
 
 
  /*-----     SECTION 5 - Accordion Menu     -----*/
- main section#sect-5 {
+main section#sect-5 {
     padding: 2.5rem 5rem 2.8rem;
     border-bottom: 8px solid var(--prim-border-color);
 
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -415,7 +414,7 @@ footer {
 
 footer div#question {
     margin: auto;
-    width: 70%;
+    width: 85%;
     color: #777;
     text-decoration: none;
     font-size: 1.2rem;
@@ -434,11 +433,12 @@ footer div.footer-links-container {
     align-items: baseline;
     justify-content: space-between;
     margin: 3rem auto;
-    width: 70%;
+    width: 85%;
 }
 
 footer div.footer-links-container ul.links {
-    width: fit-content;
+    width: 190px;
+    margin: 0 .5rem;
 }
 
 footer .footer-links-container ul.links li {
@@ -459,74 +459,8 @@ footer a:hover {
 footer div.footer-country {
     color: rgb(119, 119, 119);
     margin: auto;
-    width: 70%;
+    width: 85%;
 }
 
 
 
-/* MEDIA QUERIES FOR RWD */
-@media (max-width: 64rem) {
-
-    header div.header-wrapper {
-        margin: 0 2rem;
-        height: 60px;
-    }
-    
-    header div.header-wrapper img.netflix-logo {
-        width: 8rem;
-    }
-    
-    header div.header-wrapper a {
-        font-size: 1.05rem;
-        padding: 4px 14px;
-    }
-    
-    header div.hero-content {
-        margin: 10em auto 0;
-        width: 68%;
-    }
-
-
-
-    /* GENERIC STYLES FOR ALL CTA FORM*/
-
-    header div.cta-container {
-        width: 60%;
-        top: 2.5em;
-    }
-
-    div.cta-container > h3 {
-        width: 80%;
-        margin-top: 1em;
-    }
-
-    div.cta-container div.cta-form {
-        flex-direction: column;
-        width: 85%;
-        margin: 1rem auto 0;
-    }
-
-    div.cta-container div.cta-form > input {
-        font-size: .9rem;
-        padding: 10px 10px 10px;
-        width: 100%;
-        height: 2.6rem;
-        border-radius: 2px;
-    }
-
-    div.cta-container div.cta-form > button.cta-btn {
-        width: 30%;
-        height: 2.6rem;
-        padding: .5rem;
-        margin-top: 1rem;
-        border-radius: 2px;
-    }
-
-    div.cta-container div.cta-form > button.cta-btn a {
-        font-size: 1rem;
-    }
-
-    div.cta-container div.cta-form > button.cta-btn a > span {
-        font-size: 1.25rem;
-    }
-}
