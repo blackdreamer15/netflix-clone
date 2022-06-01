@@ -492,6 +492,14 @@ footer div.footer-country {
         width: 68%;
     }
 
+    header div.hero-content h1 {
+        font-size: 3rem;
+    }
+
+    header div.hero-content h2 {
+        font-size: 1.33rem;
+    }
+
 
 
     /* GENERIC STYLES FOR ALL CTA FORM*/
