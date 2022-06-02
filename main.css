@@ -871,23 +871,20 @@ footer div.footer-country {
         padding: 1.5rem 3rem 4rem;
         justify-content: center;
     } */
-            
-    /* main section#sect-3 div.section-text {
-        max-width: 550px;
-        max-height: 379px;
-        margin-left: 4rem;
-        margin-top: 2rem;
-    } */
-            
-    /* main section#sect-3 div.section-text h1 {
-        font-size: 3.2rem;
-        margin-bottom: 1.25rem;
-    } */
-            
-    /* main section#sect-3 div.section-text h2 {
-        font-size: 1.625rem;
-        font-weight: 400;
-    } */
+
+    main section#sect-3 div.section-text {
+        width: 95%;
+        margin: 2rem auto auto;
+        text-align: center;
+    }
+
+    main section#sect-3 div.section-text h1 {
+        font-size: 2.2rem;
+    }
+    
+    main section#sect-3 div.section-text h2 {
+        font-size: 1.1rem;
+    }
     
         
     /*-----     SECTION 4     -----*/
