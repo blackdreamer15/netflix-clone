@@ -867,11 +867,6 @@ footer div.footer-country {
 
 
     /*-----     SECTION 3     -----*/
-    /* main section#sect-3 {
-        padding: 1.5rem 3rem 4rem;
-        justify-content: center;
-    } */
-
     main section#sect-3 div.section-text {
         width: 95%;
         margin: 2rem auto auto;
@@ -894,20 +889,28 @@ footer div.footer-country {
         align-items: center;
     } */
 
-    /* main section#sect-4 div.section-text {
-        max-width: 570px;
-        margin: auto;
+    main section#sect-4 div.section-text {
+        width: 95%;
+        margin: 2rem auto auto;
         text-align: center;
-    } */
+    }
 
-    /* main section#sect-4 div.card-img-3 img {
-        max-width: 500px;
-        max-height: 390px;
-    } */
+    main section#sect-4 div.section-text h1 {
+        font-size: 2.2rem;
+    }
+    
+    main section#sect-4 div.section-text h2 {
+        font-size: 1.1rem;
+    }
 
-    /* main section#sect-4 div.card-img-3 {
-        max-width: 490px;
-    } */
+    main section#sect-4 div.card-img-3 {
+        max-width: fit-content;
+    }
+    
+    main section#sect-4 div.card-img-3 img {
+        max-width: 100%;
+        max-height: 365px;
+    }
 
 
     /* SECTION 5 */
