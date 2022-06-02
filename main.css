@@ -397,6 +397,7 @@ main section#sect-5 div.faq-accordion details p {
     background: rgb(48, 48, 48);
     font-size: 1.4rem;
     padding: 18px 44px 18px 24px;
+    text-align: justify;
     font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial,sans-serif;
 }
 
@@ -731,6 +732,10 @@ footer div.footer-country {
         top: 0em;
     }
 
+    div.cta-container:nth-of-type(2) {
+        margin-bottom: 1.5rem;
+    }
+
     div.cta-container h3 {
         font-size: 1rem;
     }
@@ -745,6 +750,10 @@ footer div.footer-country {
         font-size: .9rem;
         width: 85%;
         height: 2rem;
+    }
+
+    div.cta-container:nth-of-type(2) div.cta-form input {
+        width: 95%;
     }
 
     div.cta-container div.cta-form button.cta-btn {
@@ -914,11 +923,34 @@ footer div.footer-country {
 
 
     /* SECTION 5 */
-    /* main section#sect-5 h1 {
-        font-size: 2.8rem;
-    } */
+    main section#sect-5 {
+        padding: 2.5rem 1.8rem 2.8rem;
+    }
+
+    main section#sect-5 h1 {
+        font-size: 2.05rem;
+        text-align: center;
+    }
     
-    /* main section#sect-5 div.faq-accordion {
+    main section#sect-5 div.faq-accordion {
+        max-width: 100%;
+        width: 95%;
+    }
+    
+    main section#sect-5 div.faq-accordion details summary {
+        padding: 14px 44px 14px 24px;
         width: 100%;
-    } */
+        font-size: 1.3rem;
+    }
+    
+    main section#sect-5 div.faq-accordion details summary span {
+        transform: scale(1.8);
+        right: 1.5rem;
+    }
+    
+    main section#sect-5 div.faq-accordion details p {
+        font-size: 1rem;
+        padding: 14px 44px 14px 24px;
+    }
+    
 }
