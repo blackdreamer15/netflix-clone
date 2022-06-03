@@ -962,3 +962,37 @@ footer div.footer-country {
     }
     
 }
+
+
+@media (max-width: 28.75rem) {
+    header {
+        min-height: 85vh;
+    }
+
+    header div.header-wrapper {
+        margin: auto 1.9rem;
+    }
+    
+    header div.header-wrapper img.netflix-logo {
+        width: 5rem;
+    }
+    
+    header div.header-wrapper a {
+        font-size: .8rem;
+        padding: 4px 12px;
+    }
+    
+    header div.hero-content {
+        margin: 7em auto 0;
+        width: 70%;
+        background-color: red;
+    }
+
+    header div.hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    header div.hero-content h2 {
+        font-size: 1rem;
+    }
+}
