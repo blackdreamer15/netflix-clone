@@ -966,7 +966,7 @@ footer div.footer-country {
 
 @media (max-width: 28.75rem) {
     header {
-        min-height: 85vh;
+        min-height: 90vh;
     }
 
     header div.header-wrapper {
@@ -993,5 +993,52 @@ footer div.footer-country {
 
     header div.hero-content h2 {
         font-size: 1rem;
+    }
+
+
+    /* GENERIC STYLES FOR ALL CTA FORM*/
+
+    div.cta-container {
+        width: 78%;
+    }
+
+    div.cta-container h3 {
+        font-size: .9rem;
+    }
+
+    div.cta-container div.cta-form {
+        width: 78%;
+        margin: .5rem auto 0;
+    }
+
+    div.cta-container div.cta-form input {
+        font-size: .9rem;
+        width: 100%;
+        height: 1.75rem;
+    }
+
+    div.cta-container:nth-of-type(2) div.cta-form input {
+        width: 95%;
+    }
+
+    div.cta-container div.cta-form button.cta-btn {
+        width: fit-content;
+        height: 1.5rem;
+        padding: .2rem;
+    }
+
+    div.cta-container div.cta-form button.cta-btn a {
+        font-size: .6rem;
+    }
+
+    div.cta-container div.cta-form button.cta-btn a span {
+        font-size: .7rem;
+    }
+
+    /* STYLE FOR CTA FORM AFTER THE ACCORDION MENU */
+
+    div.cta-container:nth-of-type(2) h3 {
+        text-align: center;
+        width: 75%;
     }
 }
