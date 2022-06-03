@@ -772,11 +772,12 @@ footer div.footer-country {
     }
 
     main section#sect-1 div.section-text h1 {
-        font-size: 2.2rem;
+        font-size: 2.1rem;
     }
     
     main section#sect-1 div.section-text h2 {
         font-size: 1.1rem;
+        width: 100%;
     }
     
     main section#sect-1 div.card-img-1 img {
@@ -799,7 +800,7 @@ footer div.footer-country {
     }
 
     main section#sect-2 div.section-text h1 {
-        font-size: 2.2rem;
+        font-size: 2.1rem;
     }
 
     main section#sect-2 div.section-text h2 {
@@ -862,7 +863,7 @@ footer div.footer-country {
     }
 
     main section#sect-3 div.section-text h1 {
-        font-size: 2.2rem;
+        font-size: 2.1rem;
     }
     
     main section#sect-3 div.section-text h2 {
@@ -879,7 +880,7 @@ footer div.footer-country {
     }
 
     main section#sect-4 div.section-text h1 {
-        font-size: 2.2rem;
+        font-size: 2.1rem;
     }
     
     main section#sect-4 div.section-text h2 {
@@ -1040,5 +1041,27 @@ footer div.footer-country {
     div.cta-container:nth-of-type(2) h3 {
         text-align: center;
         width: 75%;
+    }
+
+
+    /*-----     SECTION 1     -----*/
+    main section#sect-1 div.section-text h1 {
+        font-size: 1.6rem;
+    }
+    
+    main section#sect-1 div.section-text h2 {
+        font-size: .9rem;
+        width: 100%;
+    }
+    
+    main section#sect-1 div.card-img-1 img {
+        max-height: 168px;
+        max-width: 310px;
+    }
+    
+    main section#sect-1 div.card-img-1 div .video-tv {
+        left: 1.865em;
+        top: -8.7em;
+        width: 11em;
     }
 }
