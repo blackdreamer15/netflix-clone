@@ -504,7 +504,10 @@ footer div.footer-country {
 
     div.cta-container {
         width: 60%;
-        top: 2.5em;
+    }
+
+    div.cta-container:nth-of-type(1) {
+        top: 2em;
     }
 
     div.cta-container h3 {
