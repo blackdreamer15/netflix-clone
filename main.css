@@ -486,7 +486,7 @@ footer div.footer-country {
     }
     
     header div.hero-content {
-        margin: 14em auto 0;
+        margin: 6em auto 0;
         width: 68%;
     }
 
@@ -1064,4 +1064,61 @@ footer div.footer-country {
         top: -8.7em;
         width: 11em;
     }
+
+
+    /*-----     SECTION 2     -----*/
+    main section#sect-2 div.section-text h1 {
+        font-size: 1.6rem;
+    }
+
+    main section#sect-2 div.section-text h2 {
+        font-size: .9rem;
+        width: 100%;
+    }
+
+    main section#sect-2 div.card-img-2 {
+        max-width: 100%;
+        margin: auto;
+    }
+    
+    main section#sect-2 div.card-img-2 img {
+        max-width: 310px;
+        max-height: 199px;
+        margin: 1rem auto 0;
+    }
+
+    main section#sect-2 div.card-img-2 > div {
+        left: 1em;
+        top: -4em;
+        width: 200px;
+        height: 2.5em;
+        border-radius: 6px;
+    }
+
+    main section#sect-2 div.card-img-2 > div div {
+        left: -1em;
+    }
+
+    main section#sect-2 div.card-img-2 > div div h2 {
+        font-size: .85rem;
+        margin-bottom: .3rem;
+    }
+    
+    main section#sect-2 div.card-img-2 > div div p {
+        font-size: .7rem;
+    }
+
+    main section#sect-2 div.card-img-2 > div img:nth-of-type(1) {
+        width: 2em;
+        left: -.5em;
+        top: .45em;
+    }
+
+    main section#sect-2 div.card-img-2 > div img:nth-of-type(2) {
+        width: 2em;
+        left: .5em;
+        top: 0em;
+        margin: auto;
+    }
+
 }
