@@ -293,7 +293,7 @@ main section#sect-3 {
 main section#sect-3 div.section-text {
     max-width: 550px;
     max-height: 379px;
-    margin-left: 4rem;
+    margin-left: 5rem;
     margin-top: 2rem;
 }
         
@@ -558,65 +558,112 @@ footer div.footer-country {
 
     /*-----     SECTION 1     -----*/
     main section#sect-1 {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        flex-direction: row;
+        margin: auto;
+        justify-content: space-around;
     }
 
     main section#sect-1 div.section-text {
-        text-align: center;
-        max-width: 85%;
+        /* margin: auto; */
+    }
+
+    main section#sect-1 div.section-text h1 {
+        font-size: 2.7rem;
     }
 
     main section#sect-1 div.section-text h2 {
-        width: 80%;
-        margin: 0 auto;
-        text-align: center;
+        font-size: 1.3rem;
     }
 
     main section#sect-1 div.card-img-1 {
-        max-width: 530px;
+        /* max-width: 530px; */
+        padding-top: 1.5rem;
+    }
+
+    main section#sect-1 div.card-img-1 img {
+        max-height: 280px;
+        max-width: 422px;
+        margin: auto;
+    }
+    
+    main section#sect-1 div.card-img-1 div .video-tv {
+        left: 2.8em;
+        top: -14.2em;
+        width: 17.4em;
     }
 
     
+    
     /*-----     SECTION 2     -----*/
     main section#sect-2 {
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-    }
-
-    main section#sect-2 div.card-img-2 img {
-        max-width: 490px;
-        max-height: 379px;
-        object-fit: cover;
-        margin: 1rem auto auto;
+        flex-direction: row;
     }
 
     main section#sect-2 div.section-text {
         max-width: 550px;
         max-height: 379px;
         margin: 0 auto;
-        text-align: center;
+        width: 50%;
+    }
+
+    main section#sect-2 div.section-text h1 {
+        font-size: 2.7rem;
+    }
+    
+    main section#sect-2 div.section-text h2 {
+        font-size: 1.3rem;
+        width: 78%;
+    }
+    
+    main section#sect-2 div.card-img-2 {
+        max-width: 50%;
+    }
+    
+    main section#sect-2 div.card-img-2 img {
+        max-width: 390px;
+        max-height: 269px;
+        margin: 2rem auto auto;
+        padding-right: 1rem;
     }
 
     main section#sect-2 div.card-img-2 > div {
-        left: 4.9em;
+        left: 3.25em;
+        top: -5.3em;
+        width: 250px;
+        height: 3.6em;
+        border-radius: 7.5px;
     }
-
+    
+    main section#sect-2 div.card-img-2 > div div {
+        left: -1.7em;
+    }
+    
+    main section#sect-2 div.card-img-2 > div div h2 {
+        font-size: .75rem;
+        margin-bottom: .3rem;
+    }
+    
+    main section#sect-2 div.card-img-2 > div div p {
+        font-size: .65rem;
+    }
+    
     main section#sect-2 div.card-img-2 > div img:nth-of-type(1) {
-        left: -0.9em;
+        width: 3em;
+        left: -.5em;
+        top: -1.75em;
     }
-
+    
     main section#sect-2 div.card-img-2 > div img:nth-of-type(2) {
-        left: 1em;
+        width: 3em;
+        left: 1.2em;
+        top: 0em;
+        margin: auto;
     }
 
 
     /*-----     SECTION 3     -----*/
     main section#sect-3 {
         padding: 1.5rem 3rem 4rem;
-        justify-content: center;
     }
             
     main section#sect-3 div.section-text {
@@ -627,36 +674,41 @@ footer div.footer-country {
     }
             
     main section#sect-3 div.section-text h1 {
-        font-size: 3.2rem;
+        font-size: 2.7rem;
         margin-bottom: 1.25rem;
     }
             
     main section#sect-3 div.section-text h2 {
-        font-size: 1.625rem;
-        font-weight: 400;
+        font-size: 1.3rem;
+        width: 75%;
     }
     
         
     /*-----     SECTION 4     -----*/
     main section#sect-4 {
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
+        flex-direction: row;
     }
 
     main section#sect-4 div.section-text {
-        max-width: 570px;
+        max-width: 50%;
         margin: auto;
-        text-align: center;
     }
 
-    main section#sect-4 div.card-img-3 img {
-        max-width: 500px;
-        max-height: 390px;
+    main section#sect-4 div.section-text h1 {
+        font-size: 2.7rem;
+    }
+    
+    main section#sect-4 div.section-text h2 {
+        font-size: 1.3rem;
     }
 
     main section#sect-4 div.card-img-3 {
-        max-width: 490px;
+        max-width: 50%;
+    }
+
+    main section#sect-4 div.card-img-3 img {
+        max-width: 340px;
+        max-height: 230px;
     }
 
 
@@ -670,7 +722,6 @@ footer div.footer-country {
     }
 
 }
-
 
 
 @media (max-width: 48rem) {
@@ -768,10 +819,15 @@ footer div.footer-country {
     /*-----     SECTION 1     -----*/
     main section#sect-1 {
         padding-bottom: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     main section#sect-1 div.section-text {
         margin: 2rem auto auto;
+        text-align: center;
+        max-width: 85%;
     }
 
     main section#sect-1 div.section-text h1 {
@@ -781,8 +837,13 @@ footer div.footer-country {
     main section#sect-1 div.section-text h2 {
         font-size: 1.1rem;
         width: 100%;
+        margin: 0 auto;
+        text-align: center;
     }
-    
+    main section#sect-1 div.card-img-1 {
+        max-width: 530px;
+    }
+
     main section#sect-1 div.card-img-1 img {
         max-height: 218px;
         max-width: 360px;
@@ -797,9 +858,16 @@ footer div.footer-country {
 
     
     /*-----     SECTION 2     -----*/
+    main section#sect-2 {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
 
     main section#sect-2 div.section-text {
         margin: 2rem auto auto;
+        text-align: center;
+        width: 100%;
     }
 
     main section#sect-2 div.section-text h1 {
@@ -808,9 +876,8 @@ footer div.footer-country {
 
     main section#sect-2 div.section-text h2 {
         font-size: 1.1rem;
-        width: 82%;
+        margin: 0 auto;
         text-align: center;
-        margin: auto;
     }
 
     main section#sect-2 div.card-img-2 {
@@ -860,7 +927,7 @@ footer div.footer-country {
 
     /*-----     SECTION 3     -----*/
     main section#sect-3 div.section-text {
-        width: 95%;
+        max-width: 85%;
         margin: 2rem auto auto;
         text-align: center;
     }
@@ -871,15 +938,21 @@ footer div.footer-country {
     
     main section#sect-3 div.section-text h2 {
         font-size: 1.1rem;
+        margin: auto;
     }
     
         
     /*-----     SECTION 4     -----*/
+    main section#sect-4 {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
 
     main section#sect-4 div.section-text {
-        width: 95%;
-        margin: 2rem auto auto;
         text-align: center;
+        max-width: 100%;
+        margin: 2rem auto auto;
     }
 
     main section#sect-4 div.section-text h1 {
@@ -887,7 +960,7 @@ footer div.footer-country {
     }
     
     main section#sect-4 div.section-text h2 {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     main section#sect-4 div.card-img-3 {
