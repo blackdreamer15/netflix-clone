@@ -563,10 +563,6 @@ footer div.footer-country {
         justify-content: space-around;
     }
 
-    main section#sect-1 div.section-text {
-        /* margin: auto; */
-    }
-
     main section#sect-1 div.section-text h1 {
         font-size: 2.7rem;
     }
