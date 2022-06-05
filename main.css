@@ -912,14 +912,14 @@ footer div.footer-country {
     }
 
     main section#sect-2 div.card-img-2 > div img:nth-of-type(1) {
-        width: 2em;
-        left: -.5em;
+        width: 2.9em;
+        left: -.15em;
         top: .45em;
     }
 
     main section#sect-2 div.card-img-2 > div img:nth-of-type(2) {
-        width: 2em;
-        left: .5em;
+        width: 2.9em;
+        left: .7em;
         top: 0em;
         margin: auto;
     }
