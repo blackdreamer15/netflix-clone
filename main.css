@@ -1334,4 +1334,61 @@ footer div.footer-country {
         width: 2.4em;
         left: .75em;
     }
+
+
+    /*-----     SECTION 3     -----*/
+    main section#sect-3 div.section-text {
+        margin: 1.5rem auto auto;
+        max-width: 100%;
+    }
+
+    main section#sect-3 div.section-text h1 {
+        font-size: 1.4rem;
+    }
+
+    main section#sect-3 div.section-text h2 {
+        font-size: .8rem;
+    }
+    
+        
+    /*-----     SECTION 4     -----*/
+    main section#sect-4 div.section-text {
+        margin: 1rem auto auto;
+    }
+
+    main section#sect-4 div.section-text h1 {
+        font-size: 1.4rem;
+    }
+
+    main section#sect-4 div.section-text h2 {
+        font-size: .8rem;
+    }
+    
+    main section#sect-4 div.card-img-3 img {
+        max-height: 375px;
+    }
+
+
+    /* SECTION 5 */
+    main section#sect-5 {
+        /* padding: 2.5rem 1.8rem 2.8rem; */
+        padding: 2.5rem 0rem 2.8rem;
+    }
+    
+    main section#sect-5 h1 {
+        font-size: 1.2rem;
+    }
+
+    main section#sect-5 div.faq-accordion {
+        width: 100%;
+    }
+
+    main section#sect-5 div.faq-accordion details summary {
+        font-size: 1rem;
+    }
+
+    main section#sect-5 div.faq-accordion details p {
+        font-size: .9rem;
+        padding: 14px 24px;
+    }
 }
