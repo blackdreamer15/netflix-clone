@@ -1195,3 +1195,149 @@ footer div.footer-country {
     }
 
 }
+
+
+@media (max-width: 22.5rem) {
+    header {
+        min-height: 90vh;
+    }
+
+    header div.header-wrapper {
+        margin: auto 1.2rem;
+    }
+    
+    header div.header-wrapper img.netflix-logo {
+        width: 3.8rem;
+    }
+    
+    header div.header-wrapper a {
+        font-size: .55rem;
+    }
+    
+    header div.hero-content {
+        margin: 8em auto 0;
+    }
+
+    header div.hero-content h1 {
+        font-size: 1.3rem;
+    }
+
+    header div.hero-content h2 {
+        font-size: .8rem;
+    }
+
+
+    /* GENERIC STYLES FOR ALL CTA FORM*/
+    div.cta-container h3 {
+        font-size: .8rem;
+    }
+
+    div.cta-container div.cta-form input {
+        font-size: .7rem;
+        height: 1.5rem;
+    }
+
+    div.cta-container:nth-of-type(2) div.cta-form input {
+        width: 98%;
+    }
+
+    div.cta-container div.cta-form button.cta-btn {
+        height: 1.3rem;
+    }
+
+    div.cta-container div.cta-form button.cta-btn a {
+        font-size: .48rem;
+    }
+
+    div.cta-container div.cta-form button.cta-btn a span {
+        font-size: .5rem;
+    }
+
+    /* STYLE FOR CTA FORM AFTER THE ACCORDION MENU */
+
+    div.cta-container:nth-of-type(2) h3 {
+        width: 80%;
+    }
+
+
+    /*-----     SECTION 1     -----*/
+    main section#sect-1 div.section-text {
+        margin: 1.5rem auto auto;
+        max-width: 100%;
+    }
+
+    main section#sect-1 div.section-text h1 {
+        font-size: 1.4rem;
+    }
+    
+    main section#sect-1 div.section-text h2 {
+        font-size: .8rem;
+    }
+    
+    main section#sect-1 div.card-img-1 img {
+        max-height: 138px;
+        max-width: 280px;
+    }
+    
+    main section#sect-1 div.card-img-1 div .video-tv {
+        left: 1.5em;
+        top: -7.2em;
+        width: 9em;
+    }
+
+
+    /*-----     SECTION 2     -----*/
+    main section#sect-2 div.section-text {
+        margin: 1.5rem auto auto;
+    }
+
+    main section#sect-2 div.section-text h1 {
+        font-size: 1.4rem;
+    }
+
+    main section#sect-2 div.section-text h2 {
+        font-size: .8rem;
+    }
+
+    main section#sect-2 div.card-img-2 {
+        /* max-width: 100%; */
+        /* margin: auto; */
+    }
+    
+    main section#sect-2 div.card-img-2 img {
+        max-width: 270px;
+        max-height: 159px;
+        /* margin: 1rem auto 0; */
+    }
+
+    main section#sect-2 div.card-img-2 > div {
+        left: 2em;
+        top: -3.3em;
+        width: 150px;
+        height: 2.2em;
+        /* border-radius: 5px; */
+    }
+
+    main section#sect-2 div.card-img-2 > div div {
+        left: -.5em;
+        margin: auto 0;
+    }
+
+    main section#sect-2 div.card-img-2 > div div h2 {
+        font-size: .55rem;
+    }
+    
+    main section#sect-2 div.card-img-2 > div div p {
+        font-size: .47rem;
+    }
+
+    main section#sect-2 div.card-img-2 > div img:nth-of-type(1) {
+        width: 2.15em;
+        left: .2em;
+    }
+
+    main section#sect-2 div.card-img-2 > div img:nth-of-type(2) {
+        width: 2.4em;
+        left: .75em;
+    }
+}
