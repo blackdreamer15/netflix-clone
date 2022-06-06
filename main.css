@@ -1309,7 +1309,6 @@ footer div.footer-country {
         top: -3.3em;
         width: 150px;
         height: 2.2em;
-        /* border-radius: 5px; */
     }
 
     main section#sect-2 div.card-img-2 > div div {
@@ -1371,7 +1370,6 @@ footer div.footer-country {
 
     /* SECTION 5 */
     main section#sect-5 {
-        /* padding: 2.5rem 1.8rem 2.8rem; */
         padding: 2.5rem 0rem 2.8rem;
     }
     
