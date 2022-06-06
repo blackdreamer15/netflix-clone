@@ -1298,16 +1298,10 @@ footer div.footer-country {
     main section#sect-2 div.section-text h2 {
         font-size: .8rem;
     }
-
-    main section#sect-2 div.card-img-2 {
-        /* max-width: 100%; */
-        /* margin: auto; */
-    }
     
     main section#sect-2 div.card-img-2 img {
         max-width: 270px;
         max-height: 159px;
-        /* margin: 1rem auto 0; */
     }
 
     main section#sect-2 div.card-img-2 > div {
