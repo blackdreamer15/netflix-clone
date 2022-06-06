@@ -1194,6 +1194,11 @@ footer div.footer-country {
         margin: auto;
     }
 
+    footer div.footer-links-container ul.links {
+        margin: 0;
+        width: 45%;
+    }
+
 }
 
 
@@ -1388,5 +1393,28 @@ footer div.footer-country {
     main section#sect-5 div.faq-accordion details p {
         font-size: .9rem;
         padding: 14px 24px;
+    }
+
+
+    /* FOOTER */
+    footer {
+        padding: 3rem 1.2rem;
+    }
+
+    footer div#question,
+    footer div.footer-country {
+        font-size: 1rem;
+    }
+
+    footer div.footer-links-container ul.links {
+        margin: 0;
+    }
+
+    footer .footer-links-container ul.links li {
+        padding: 1rem 0 1rem 0;
+    }
+
+    footer .footer-links-container ul.links li a {
+        font-size: .8rem;
     }
 }
