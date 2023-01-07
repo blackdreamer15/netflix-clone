@@ -308,17 +308,17 @@ main section#sect-5 div.faq-accordion {
 }
 
 main section#sect-5 div.faq-accordion details {
-    margin: 1.25em auto;
+    margin: .8rem auto;
 }
 
 main section#sect-5 div.faq-accordion details summary {
     background: rgb(48, 48, 48);
-    padding: 16px 44px 16px 24px;
+    padding: 18px 44px 18px 24px;
     width: 100%;
     font-weight: 400;
+    font-size: 1.7rem;
     border: 0;
     position: relative;
-    margin-bottom: 1px;
     list-style: none;
     outline: none;
     cursor: pointer;
